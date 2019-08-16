@@ -63,13 +63,19 @@ body {
     background-size: 1280px 1280px;
 }
 .portpics {
-    margin: 15px;
+  width: 250px;
+  position: relative;
+  z-index: -1;
 }
 .portbanner {
-  width: 100%;
+  width: 250px;
   height: 25px;
   position: relative;
-  bottom: 10px;
+  top: 225px;
   background: black;
   color: white;
 }
+.flex div:first-child {
+  margin: 15px;
+}
+
