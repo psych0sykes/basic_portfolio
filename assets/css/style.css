@@ -115,8 +115,18 @@ input {
 .conbox {
   background-color: yellow;
   opacity: .40;
-  height: 525px;
+  height: 550px;
   width: 900px;
   position: absolute;
   z-index: -1;
+}
+.submit {
+  width: 75px;
+  background-color: black;
+  color: white;
+  margin: 15px;
+}
+.submit:hover {
+  background-color: blue;
+
 }
