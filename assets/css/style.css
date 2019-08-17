@@ -36,6 +36,16 @@ nav h1 {
     position: relative;
     bottom: 50px;
 }
+h2 {
+  padding: 15px;
+}
+h3 {
+  margin: 15px;
+  padding: 0px;
+}
+p {
+  margin: 10px;
+}
 .content {
     width: 900px;
     margin-right: auto;
@@ -52,6 +62,10 @@ nav h1 {
 .flex {
     display: flex;
     flex-wrap: wrap;
+    margin: 15px;
+}
+.flex section{
+    margin: 15px;
 }
 .me {
     float: left;
@@ -67,7 +81,7 @@ body {
   position: relative;
   z-index: -1;
 }
-.portbanner {
+.portlabel {
   width: 250px;
   height: 25px;
   position: relative;
@@ -75,7 +89,34 @@ body {
   background: black;
   color: white;
 }
-.flex div:first-child {
-  margin: 15px;
+.portbox {
+  background-color: yellow;
+  opacity: .40;
+  height: 100%;
+  width: 900px;
+  position: absolute;
+  z-index: -1;
 }
-
+input {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  font-size: 18px;
+  height: 35px;
+}
+.longform {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  font-size: 18px;
+  height: 135px;
+  resize: none;
+}
+.conbox {
+  background-color: yellow;
+  opacity: .40;
+  height: 525px;
+  width: 900px;
+  position: absolute;
+  z-index: -1;
+}
